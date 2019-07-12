@@ -1,0 +1,14 @@
+{
+  "name": "languagesserver",
+  "version": "1.0.0",
+  "description": "server for processing and saving words from different languages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ecasdevelop@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
