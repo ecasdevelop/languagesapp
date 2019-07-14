@@ -9,9 +9,11 @@ even though you came from a different origin."
 This requires cooperation from the server 
 */
 //Multiple origin
-var whitelist = ['http://localhost:3000', 'http://localhost:4200',
-        'https://languagesapp.herokuapp.com/', 'http://127.0.0.1:3000',
-        'http://localhost', 'https://localhost'
+var whitelistLocal = ['http://localhost:3000', 'http://localhost:4200', 'http://127.0.0.1:3000',
+    'http://localhost', 'https://localhost'
+]
+var whitelist = [
+        'https://languagesapp.herokuapp.com/'
     ]
     //Multiple Origin
 var corsOptionsMultiple = {
