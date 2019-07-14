@@ -10,7 +10,8 @@ This requires cooperation from the server
 */
 //Multiple origin
 var whitelist = ['http://localhost:3000', 'http://localhost:4200',
-        'https://languagesapp.herokuapp.com/', 'http://127.0.0.1:3000'
+        'https://languagesapp.herokuapp.com/', 'http://127.0.0.1:3000',
+        'http://localhost', 'https://localhost'
     ]
     //Multiple Origin
 var corsOptionsMultiple = {
@@ -41,7 +42,7 @@ function corsSingleOrOrigin(tipo) {
 
 app.use('/', express.static(__dirname + '/angularLanguages'));
 
-app.get('/api/u/:id/palabras', corsSingleOrOrigin("single"), (req, res) => {
+app.get('/api/u/:id/palabras', corsSingleOrOrigin("multiple"), (req, res) => {
     console.log(msg.servidor());
     palabras = [{
         name: "lilly"
