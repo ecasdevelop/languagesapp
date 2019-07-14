@@ -13,7 +13,8 @@ var whitelistLocal = ['http://localhost:3000', 'http://localhost:4200', 'http://
     'http://localhost', 'https://localhost'
 ]
 var whitelist = [
-        'https://languagesapp.herokuapp.com/'
+        'https://languagesapp.herokuapp.com/', 'languagesapp.herokuapp.com',
+        'https://languagesapp.herokuapp.com/palabras', 'languagesapp.herokuapp.com/palabras'
     ]
     //Multiple Origin
 var corsOptionsMultiple = {
